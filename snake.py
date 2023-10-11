@@ -1,4 +1,7 @@
-import pygame, sys, time,  random
+import pygame 
+import sys
+import time
+import random
 
 speed = 15
 
@@ -112,6 +115,7 @@ while True:
         pos_comida = [random.randrange(1,(tam_marco_x // tam_cuadro)) * tam_cuadro,
             random.randrange(1,(tam_marco_y // tam_cuadro)) * tam_cuadro]
         spawn_comida = True
+    
     # efectos graficos
 
     ventana_juego.fill(negro)
